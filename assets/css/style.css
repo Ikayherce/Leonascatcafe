@@ -26,6 +26,10 @@ h1 {
     font-family: "Cinzel decorative";
     font-size: 250%;
 }
+
+#menu {
+    list-style-type: none;
+}
 /* Main content */
 main {
     background-color: #FEEBD6;
