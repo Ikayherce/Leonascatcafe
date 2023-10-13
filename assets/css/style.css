@@ -100,7 +100,6 @@ footer {
     #menu {
         display: flex;
         font-size: 120%;
-        
     }
 
     #menu > li {
@@ -122,4 +121,21 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #40302D;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+    }
+
+    #menu {
+        display: flex;
+        font-size: 95%;
+    }
+}
 }
