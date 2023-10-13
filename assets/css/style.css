@@ -15,10 +15,16 @@ body {
     /* Generic project styles */
     color: #56423E;
     font-family: "Albert", sans-serif;
+    font-size: 150%;
 }
 /* Header */
 header {
-    background-color: #FFB3A6
+    background-color: #FFB3A6;
+    padding: 0 1rem;
+    position: fixed; 
+    z-index: 99;
+    width: 100%; 
+    box-shadow: 0 2px 2px #56423E;
 }
 
 h1 {
