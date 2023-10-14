@@ -81,6 +81,14 @@ main {
     margin-top: 47px;
 }
 
+/*Hero section styles*/
+#hero {
+    height: 900px;
+    width: 100%;
+    background: url("../css/images/leonasdalle1.png") no-repeat center center/cover;
+    position: relative;
+}
+
 /* Footer */
 footer {
     background-color: #FF7B89;
