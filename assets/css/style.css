@@ -90,19 +90,28 @@ main {
     position: relative;
 }
 
-/* Video not working
-#herocat {
-  width: 100%;
-  height: 100vh;
+#cover-text {
+    color:#FEEBD6;
+    font-family: 'Tilt Neon', sans-serif;
+    /*Make semi-opaque box, move to bottom end of the hero section*/ 
+
+    
+}
+
+/* Video not working*/
+video {
   object-fit: cover;
+  height: 100vh;
+  max-width: 100%;
+  object-fit: cover; 
   position: relative;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: -1;
   background: url("assets/css/video/coverr-a-beautiful-cat-licks-itself-381-1080p.mp4") no-repeat center center/cover;
-  position: relative;*/
+  position: relative;
+  
 }
 
 #about {
