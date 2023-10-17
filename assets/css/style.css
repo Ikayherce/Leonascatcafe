@@ -107,6 +107,12 @@ main {
 
 #about {
 /*This section needs to be a centered column with text and image in small screens and a row with the image in the middle in bigger screens*/
+text-align: center;
+}
+
+#leonaabout {
+    display:flex;
+    margin: auto;
 }
 
 /* Footer */
