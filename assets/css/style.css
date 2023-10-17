@@ -83,25 +83,22 @@ main {
 }
 
 /*Hero section styles*/
-#hero {
+/*#hero {
     height: 700px;
     width: 100%;
     background: url("../css/images/reba-spike-OjB_lkGKhX8-unsplash.jpg") no-repeat center center/cover;
     position: relative;
+}*/
+
+#herocat {
+    height: 700px;
+    width:100%;
+    background: url("../css/images/reba-spike-OjB_lkGKhX8-unsplash.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
-   
-#abouttext {
-     display:flex;
-     
-}
+#about {
 
-#leonaabout {
-    
-}
-
-#aboutourmenu {
- 
 }
 
 /* Footer */
@@ -109,77 +106,3 @@ footer {
     background-color: #FFB3A6;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-        font-size: 120%;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 240%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
-
-    /*Footer*/ 
-#footer {
-      text-align: center;
-       height: 400px;
-       padding: 3px;
-    }
-    
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
- 
-    #social-networks i{
-        font-size: 150%;
-        color: #56423E;
-    }
-
-    /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #40302D;
-    }
-
-    #logo {
-        font-size: 200%;
-        line-height: 75px;
-    }
-
-    #menu {
-        display: flex;
-        font-size: 95%;
-    }
-}
-}
