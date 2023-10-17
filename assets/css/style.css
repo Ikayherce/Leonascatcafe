@@ -109,6 +109,31 @@ main {
 
 /* Footer */
 footer {
-    background-color: #FFB3A6;
+background-color: #FFB3A6;
+text-align: center;
+height: 400px;
+padding: 3px;
+}
+#social-networks {
+text-align: center;
+padding: 20px 0;
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
 }
 
+
+#social-networks i{
+font-size: 150%;
+color: #56423E;
+}
+
+}
+
+#map {
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items:center;
+    align-self: center;
+}
