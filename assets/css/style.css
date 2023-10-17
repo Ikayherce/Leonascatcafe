@@ -85,6 +85,7 @@ main {
 #hero {
     height: 900px;
     width: 100%;
+    /*picture is supposed to look larger but cropped in small devices*/
     background: url("../css/images/reba-spike-OjB_lkGKhX8-unsplash.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -105,7 +106,7 @@ main {
 }
 
 #about {
-
+/*This section needs to be a centered column with text and image in small screens and a row with the image in the middle in bigger screens*/
 }
 
 /* Footer */
@@ -196,7 +197,7 @@ color: #56423E;
     font-size: 150%;
     color: #56423E;
     }*/
-        
+}     
     /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
