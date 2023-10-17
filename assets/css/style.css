@@ -90,18 +90,10 @@ main {
     position: relative;
 }
 
-#about {
-    width: 100%;
-    position: relative; 
-}
-
+   
 #abouttext {
-    display: flex; 
-    justify-content: flex-start;
-    align-items: flex-start; 
-    flex-direction: column;
-    font-size: 60%;
-    order: -1;
+     display:flex;
+     
 }
 
 #leonaabout {
@@ -109,13 +101,9 @@ main {
 }
 
 #aboutourmenu {
- display: flex; 
- justify-content: flex-end;
- align-items: flex-end; 
- flex-direction: column;
- font-size: 60%;
- order:1;
+ 
 }
+
 /* Footer */
 footer {
     background-color: #FFB3A6;
