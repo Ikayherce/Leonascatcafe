@@ -198,6 +198,7 @@ color: #56423E;
          flex-direction:row;
          flex-wrap: wrap; 
          order: -1;
+         font-size: 50%;
         }  
          
         #leonaabout {
@@ -206,6 +207,7 @@ color: #56423E;
         flex-direction:row;
         flex-wrap: wrap; 
         order: 0;
+        font-size: 50%;
         }   
       
         #aboutourmenu {
