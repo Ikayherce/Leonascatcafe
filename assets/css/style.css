@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -47,6 +48,11 @@ h1 {
     font-size: 120%;
 }
 
+#menu>li {
+    margin-bottom: 1em;
+}
+
+
 .active {
     border-bottom: 1px solid #56423E;
 }
@@ -67,12 +73,15 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle{
     display: none; 
 }
+
 .nav-toggle-label {
     font-size:300%; 
 }
+
 /* Main content */
 main {
     background-color: #FEEBD6;
@@ -180,12 +189,7 @@ color: #56423E;
          .nav-toggle-label{
          display: none;
         }
-    /*Not sure i want to keep this#logo {
-    font-size: 240%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-    }*/
-
+    
     /* Main content */
          main {
     /* Push main content down to accommodate larger header */
@@ -197,7 +201,7 @@ color: #56423E;
          flex-direction:row;
          flex-wrap: wrap; 
          order: -1;
-         font-size: 50%;
+         font-size: 100%;
         }  
          
         #leonaabout {
@@ -206,7 +210,7 @@ color: #56423E;
         flex-direction:row;
         flex-wrap: wrap; 
         order: 0;
-        font-size: 50%;
+        font-size: 100%;
         }   
       
         #aboutourmenu {
@@ -229,11 +233,7 @@ color: #56423E;
         justify-content: space-evenly;
         list-style-type: none;
     }
-    /*Not working since icons keep on appearing small and with default styles
-    #social-networks i{
-    font-size: 150%;
-    color: #56423E;
-    }*/
+   
 }     
     /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
