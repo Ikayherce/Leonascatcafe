@@ -56,7 +56,6 @@ nav {
     background-color: #FFB3A6; 
     width: 100%;
     left:0;
-    align-self: left; 
     padding: 0 1rem;
     box-shadow: 0 2px 2px #56423E;
     display:none;
@@ -114,10 +113,10 @@ video {
   
 }
 
-#about {
-/*This section needs to be a centered column with text and image in small screens and a row with the image in the middle in bigger screens*/
+/*#about {
+This section needs to be a centered column with text and image in small screens and a row with the image in the middle in bigger screens
 text-align: center;
-}
+}*/
 
 #leonaabout {
     display:flex;
@@ -145,7 +144,6 @@ font-size: 150%;
 color: #56423E;
 }
 
-}
 
 #address {
     /* padding not working*/
@@ -165,23 +163,23 @@ color: #56423E;
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-    nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+        nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-    #menu {
+         #menu {
         display: flex;
         font-size: 120%;
         }
-   #menu > li {
-    padding-left: 1rem;
+        #menu > li {
+         padding-left: 1rem;
     }
     /*Media query is failing since change below appears in mobile screens too*/
-    .nav-toggle-label {
-        display: none;
+         .nav-toggle-label{
+         display: none;
         }
     /*Not sure i want to keep this#logo {
     font-size: 240%;
@@ -190,22 +188,45 @@ color: #56423E;
     }*/
 
     /* Main content */
-    main {
+         main {
     /* Push main content down to accommodate larger header */
-    margin-top: 79px;
+          margin-top: 79px;
     }
+        #abouttext {
+         display:flex;
+         margin: auto;
+         flex-direction:row;
+         flex-wrap: wrap; 
+         order: -1;
+        }  
+         
+        #leonaabout {
+        display:flex;
+        margin: auto;
+        flex-direction:row;
+        flex-wrap: wrap; 
+        order: 0;
+        }   
+      
+        #aboutourmenu {
+            display:flex;
+            margin: auto;
+            flex-direction:row;
+            flex-wrap: wrap; 
+            order: 1;
+        } 
     /*Footer*/
-    #footer {
-    text-align: center;
-    height: 400px;
-    padding: 3px;
+         #footer {
+        text-align: center;
+        height: 400px;
+        padding: 3px;
     }
-    #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+         #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
     }
     /*Not working since icons keep on appearing small and with default styles
     #social-networks i{
@@ -215,10 +236,10 @@ color: #56423E;
 }     
     /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-    border-bottom: 1px solid #40302D;
+         #menu a:hover{
+        border-bottom: 1px solid #40302D;
     }
-    #logo {
+          #logo {
         font-size: 300%;
         line-height: 75px;
         }        
