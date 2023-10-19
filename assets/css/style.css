@@ -16,7 +16,7 @@ body {
     /* Generic project styles */
     color: #56423E;
     font-family: "Albert", sans-serif;
-    font-size: 50%;
+    font-size: 100%;
 }
 /* Header */
 header {
@@ -38,7 +38,7 @@ header a {
 
 h1 {
     font-family: 'Tilt Neon', sans-serif;
-    font-size: 400%;
+    font-size: 150%;
     color: #40302D; 
 }
 
@@ -79,7 +79,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size:300%; 
+    font-size:240%; 
 }
 
 /* Main content */
@@ -95,47 +95,43 @@ main {
     height: 900px;
     width: 100%;
     /*picture is supposed to look larger but cropped in small devices*/
-    background: url("../css/images/reba-spike-OjB_lkGKhX8-unsplash.jpg") no-repeat center center/cover;
+    background: url("../images/reba-spike-OjB_lkGKhX8-unsplash.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 #cover-text {
     color:#FEEBD6;
     font-family: 'Tilt Neon', sans-serif;
-    /*Make semi-opaque box, move to bottom end of the hero section*/ 
-
-    
+    padding: 1rem;
+    /*background color to make text visible against image*/
+    background-color: rgba(0, 0, 0, 0.5);  
 }
 
-/* Video not working*/
-video {
-  object-fit: cover;
-  height: 100vh;
-  max-width: 100%;
-  object-fit: cover; 
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: url("assets/css/video/coverr-a-beautiful-cat-licks-itself-381-1080p.mp4") no-repeat center center/cover;
-  position: relative;
-  
+.about {
+    display:grid;
+    grid-template-columns: auto;
 }
 
+.abouttext {
+    display:inline-grid;
+    margin:auto;
+    order:-1;
+    font-size:100%;
+    padding:1rem;
+}
 
 #leonaabout {
-    display:flex;
     margin: auto;
+    width:80;
 }
 
 /* Footer */
 footer {
 background-color: #FFB3A6;
 text-align: center;
-height: 400px;
 padding: 3px;
 }
+
 #social-networks {
 text-align: center;
 padding: 20px 0;
@@ -150,7 +146,6 @@ color: #56423E;
 }
 
 #address {
-    /* padding not working*/
     padding-top: 10px;
     display:flex;
     flex-direction: column;
@@ -159,8 +154,12 @@ color: #56423E;
     align-self: center;
 }
 
+#address img {
+    max-width:60%;
+    height:auto;
+    padding:1rem;
+}
 #map {
-   /*padding not working*/
     padding-top: 10px;
 }
 
