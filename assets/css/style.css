@@ -192,6 +192,7 @@ color: #56423E;
     /* Push main content down to accommodate larger header */
           margin-top: 79px;
         }
+        /*about section doesn't look centered*/ 
         .about {
             display:grid;
             grid-template-columns: auto auto auto;
