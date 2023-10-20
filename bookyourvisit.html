@@ -41,16 +41,32 @@
         <section id="bookvisit">
             <form id="bookform "method="POST" action="https://formdump.codeinstitute.net">
                 <h2>Come meet our kitties!</h2>
-                <label for="first_name">First Name</label>
+                <label for="first_name">First name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <br>
-                <label for="last_name">First Name</label>
+                <label for="last_name">Last name</label>
                 <input type="text" name="last_name" id="last_name" class="text-input" required>
                 <br>
-                <label for="email_adress">First Name</label>
+                <label for="email_adress">Email address</label>
                 <input type="email" name="email_adress" id="email_adress" class="text-input" required>
                 <br>
-
+                <label for="date">Pick a date</label>
+                <input type="date" name="date" id="date" class="date" required>
+                <br>
+                <div class="radio buttons">
+                    <input type="radio" name="time-slot" id="time" value="time" required checked></div>
+                        <div><label for="time">9-11hs</label>
+                    <input type="radio" name="time-slot" id="time" value="time" required checked></div>
+                        <div><label for="time">12-14hs</label>
+                    <input type="radio" name="time-slot" id="time" value="time" required checked></div>
+                        <div><label for="time">14-16hs</label>
+                    <input type="radio" name="time-slot" id="time" value="time" required checked></div>
+                        <div><label for="time">16-18hs</label>
+                     <input type="radio" name="time-slot" id="time" value="time" required checked></div>
+                        <div><label for="time">18-21hs</label>
+                </div>
+                <button type="submit" class="join-button">Submit right meow</button>
+                <br>
             </form>
         </section>
     </main>
