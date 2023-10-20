@@ -162,6 +162,12 @@ color: #56423E;
     padding-top: 10px;
 }
 
+#piti {
+    max-width:20%;
+    height:auto;
+    padding:1rem;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media(min-width: 768px) {
        h1 {
