@@ -164,7 +164,7 @@ color: #56423E;
 
 /*Form*/
 /*styles not working*/
-#bookform {
+#booking-section {
     background:rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     padding-right: 10%;
@@ -172,8 +172,13 @@ color: #56423E;
     padding-left: 10%;
 }
 
-#bookform {
+#form {
     padding: 30px;
+}
+
+.join-button {
+    color:#40302D;
+    border:#40302D
 }
 
 /* Media query: tablets and larger (768px and up) */
