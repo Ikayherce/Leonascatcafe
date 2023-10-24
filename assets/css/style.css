@@ -163,49 +163,49 @@ color: #56423E;
 }
 
 /*Form*/
-/*styles not working*/
 #form {
-    /*background-image: url("../css/images/paw.webp");*/
-    /*background:rgba(0, 0, 0, 0.5);*/
     padding-top: 20px;
     padding-right: 10%;
     margin: 8px 0;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     padding-left: 10%;
     box-sizing: border-box;
 }
 input[type=text] {
-    border: 2px solid #40302D
+    border: 2px solid #40302D;
     margin: 8px 0;
     /*border-radius: 2px;
     padding: 12px 20px;*/
   }
 
-input[type=email_adress] {
-    border: 2px solid #40302D
+input[type=email] {
+    border: 2px solid #40302D;
     margin: 8px 0;
     /*border-radius: 2px;
     padding: 12px 20px;*/
   }
-
 
   input[type=date] {
-    border: 2px solid #40302D
+    border: 2px solid #40302D;
     margin: 8px 0;
     /*border-radius: 2px;
     padding: 12px 20px;*/
   }
 
-  input[type=submit] {
-    border: 2px solid #40302D
+  input[type=radio] {
+    margin: 8px 0;
+  }
+
+  button[type=submit] {
+    border: 2px solid #40302D;
     margin: 8px 0;
     border-radius: 2px;
     padding: 12px 20px;
+    font-family: "Albert", sans-serif;
+    color:#40302D;
+
   }
 
-.join-button {
-    border:#40302D
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media(min-width: 768px) {
