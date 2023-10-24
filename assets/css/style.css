@@ -176,20 +176,30 @@ color: #56423E;
 }
 input[type=text] {
     border: 2px solid #40302D
-    border-radius: 4px;
-    padding: 12px 20px;
+    margin: 8px 0;
+    /*border-radius: 2px;
+    padding: 12px 20px;*/
   }
 
 input[type=email_adress] {
     border: 2px solid #40302D
-    border-radius: 4px;
-    padding: 12px 20px;
+    margin: 8px 0;
+    /*border-radius: 2px;
+    padding: 12px 20px;*/
   }
 
 
   input[type=date] {
     border: 2px solid #40302D
-    border-radius: 4px;
+    margin: 8px 0;
+    /*border-radius: 2px;
+    padding: 12px 20px;*/
+  }
+
+  input[type=submit] {
+    border: 2px solid #40302D
+    margin: 8px 0;
+    border-radius: 2px;
     padding: 12px 20px;
   }
 
