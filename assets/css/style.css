@@ -165,6 +165,7 @@ color: #56423E;
 /*Form*/
 /*styles not working*/
 #booking-section {
+    /*background-image: url("../css/images/paw.webp");*/
     background:rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     padding-right: 10%;
