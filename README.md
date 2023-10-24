@@ -11,7 +11,7 @@ deployed link: https://ikayherce.github.io/Leonascatcafe/index.html
 
 ## User demographic
 Leona's cat café is for anyone who likes cats and wants a serotonin booster along with good coffee and pastries. This makes the café appealing to people all ages, from families with children to teenagers or young couples and of course older citizens. When it comes to gender, the cat café demographic is dominated by women. 
- Leona's cat café is located in the suburban area Kärrtorp in the south of Stockholm. This area is known for being calm and trendy and is mostly populated by older citizens, young families, young couples and young professionals. This makes Kärrtorp the ideal location for the cat café. 
+ Leona's cat café is located in the suburban area Kärrtorp in the south of Stockholm. This area is known for being calm and trendy and is mostly populated by older citizens, young families, young couples and young professionals. This makes Kärrtorp the ideal location for the cat café.      
  
 
 ## Features
