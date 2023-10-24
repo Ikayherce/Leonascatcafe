@@ -164,7 +164,7 @@ color: #56423E;
 
 /*Form*/
 /*styles not working*/
-#booking-section {
+#form {
     /*background-image: url("../css/images/paw.webp");*/
     /*background:rgba(0, 0, 0, 0.5);*/
     padding-top: 20px;
@@ -172,14 +172,28 @@ color: #56423E;
     margin: 8px 0;
     padding-bottom: 0;
     padding-left: 10%;
+    box-sizing: border-box;
 }
+input[type=text] {
+    border: 2px solid #40302D
+    border-radius: 4px;
+    padding: 12px 20px;
+  }
 
-#form {
-    padding: 30px;
-}
+input[type=email_adress] {
+    border: 2px solid #40302D
+    border-radius: 4px;
+    padding: 12px 20px;
+  }
+
+
+  input[type=date] {
+    border: 2px solid #40302D
+    border-radius: 4px;
+    padding: 12px 20px;
+  }
 
 .join-button {
-    color:#40302D;
     border:#40302D
 }
 
