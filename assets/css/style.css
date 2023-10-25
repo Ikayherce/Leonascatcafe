@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #56423E;
-    font-family: "Albert", sans-serif;
+    font-family:'Tilt Neon', sans-serif;
     font-size: 100%;
 }
 /* Header */
@@ -167,20 +167,28 @@ color: #56423E;
 }
 
 #meet-our-cats {
-    margin: 20px 20px 20px 20px;
-    padding: 1rem;
+    margin: 5px 5px 5px 5px;
+    padding: 1rem; 
     font-family:'Tilt Neon', sans-serif;
 }
 
 .cat-name {
-    margin: 20px 20px 20px 20px;
+    margin: 5px 5px 5px 5px;
     padding: 1rem;
+}
+
+.cat-div {
+    display:grid;
+    grid-template-columns: auto;
+    align-self:auto;
+}
 }
 /*Our cats page*/
 
-/*#our-cats {
+#our-cats {
     margin: 20px 20px 20px 20px;
-}*/
+}
+
 #cat-descriptions {
     margin: 20px 20px 20px 20px;
 }
@@ -235,7 +243,7 @@ input[type=email] {
     margin: 8px 0;
     border-radius: 2px;
     padding: 12px 20px;
-    font-family: "Albert", sans-serif;
+    font-family:'Tilt Neon', sans-serif;
     color:#40302D;
 
   }
@@ -244,7 +252,7 @@ input[type=email] {
 /* Media query: tablets and larger (768px and up) */
 @media(min-width: 768px) {
        h1 {
-        font-size: 300;
+        font-size: 350;
         padding-top: 1.1rem;
        }
         
