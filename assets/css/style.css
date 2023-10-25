@@ -104,6 +104,10 @@ main {
     padding: 1rem;
     /*background color to make text visible against image*/
     background-color: rgba(0, 0, 0, 0.5);  
+   /*trying to move text to bottom of image not working*/
+    display:flex;
+    align-items: flex-end;
+    align-content: flex-end;
 }
 
 .about {
@@ -165,11 +169,11 @@ color: #56423E;
 /*Form*/
 
 /booking-section {   
-    picture not loading, back up plan is no background
-    /*background-image: url("../css/images/formcat.jpg");
-    background-color:rgba(0, 0, 0, 0.5);*/
+    /*picture not loading, back up plan is no background
+    background-image: url("../css/images/formcat.jpg");
+    background-color:rgba(0, 0, 0, 0.5);
     background-size: cover;
-    background-position: 75%;
+    background-position: 75%;*/
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     margin: 20px 20px 20px 20px;
