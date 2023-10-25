@@ -3,6 +3,7 @@ This is a website for a local cat café in Stockholm.
 deployed link: https://ikayherce.github.io/Leonascatcafe/index.html 
 
  //IMAGE "am I responsive" here//
+ https://ui.dev/amiresponsive?url=https://ikayherce.github.io/Leonascatcafe/index.html
 
  ![wireframes iphone](../assets/readmeimages/wireframe_iphone.png)
  
