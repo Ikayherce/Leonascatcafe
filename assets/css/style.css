@@ -164,14 +164,15 @@ color: #56423E;
 
 /*Form*/
 
-/*#booking-section {   
+/booking-section {   
     picture not loading, back up plan is no background
-    background-image: url("../css/images/formcat.jpg");
-    background-color:rgba(0, 0, 0, 0.5);
+    /*background-image: url("../css/images/formcat.jpg");
+    background-color:rgba(0, 0, 0, 0.5);*/
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
-    flex-grow: 1;*/
+    flex-grow: 1;
+    margin: 20px 20px 20px 20px;
 } 
 #form {
     padding-top: 20px;
