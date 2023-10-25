@@ -166,24 +166,29 @@ color: #56423E;
     padding-top: 10px;
 }
 
-#meet-our-cats {
-    margin: 5px 5px 5px 5px;
-    padding: 1rem; 
-    font-family:'Tilt Neon', sans-serif;
-}
 
-.cat-name {
-    margin: 5px 5px 5px 5px;
-    padding: 1rem;
-}
+
+
+/*Our cats page*/
 
 .cat-div {
     display:grid;
     grid-template-columns: auto;
-    align-self:auto;
+    justify-content:center;
+    align-items:center;
 }
+ #meet-our-cats {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /*margin: 5px 5px 5px 5px;
+    padding: 1rem;*/
 }
-/*Our cats page*/
+
+/*.cat-name {
+    margin: 5px 5px 5px 5px;
+    padding: 1rem;
+}*/
 
 #our-cats {
     margin: 20px 20px 20px 20px;
