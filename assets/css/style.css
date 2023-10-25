@@ -176,6 +176,7 @@ color: #56423E;
     grid-template-columns: auto;
     justify-content:center;
     align-items:center;
+    padding: 1rem;
 }
  #meet-our-cats {
     display:flex;
@@ -183,13 +184,18 @@ color: #56423E;
     align-items:center;
     /*margin: 5px 5px 5px 5px;
     padding: 1rem;*/
-}
+} 
 
 /*.cat-name {
     margin: 5px 5px 5px 5px;
     padding: 1rem;
 }*/
 
+.cat {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 #our-cats {
     margin: 20px 20px 20px 20px;
 }
