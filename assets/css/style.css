@@ -166,9 +166,28 @@ color: #56423E;
     padding-top: 10px;
 }
 
+#meet-our-cats {
+    margin: 20px 20px 20px 20px;
+    padding: 1rem;
+    font-family:'Tilt Neon', sans-serif;
+}
+
+.cat-name {
+    margin: 20px 20px 20px 20px;
+    padding: 1rem;
+}
+/*Our cats page*/
+
+/*#our-cats {
+    margin: 20px 20px 20px 20px;
+}*/
+#cat-descriptions {
+    margin: 20px 20px 20px 20px;
+}
+
 /*Form*/
 
-/booking-section {   
+booking-section {   
     /*picture not loading, back up plan is no background
     background-image: url("../css/images/formcat.jpg");
     background-color:rgba(0, 0, 0, 0.5);
