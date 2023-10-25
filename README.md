@@ -3,6 +3,8 @@ This is a website for a local cat café in Stockholm.
 deployed link: https://ikayherce.github.io/Leonascatcafe/index.html 
 
  //IMAGE "am I responsive" here//
+
+ ![wireframes iphone](../assets/readmeimages/wireframe_iphone.png)
  
  ## Table of contents
  
