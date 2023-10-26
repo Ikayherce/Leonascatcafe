@@ -270,6 +270,7 @@ input[type=email] {
   .join-button{
     all: none;
   }
+  
   button[type=submit] {
     border: 2px solid #40302D;
     margin: 8px 0;
