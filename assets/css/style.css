@@ -119,7 +119,7 @@ main {
     grid-template-columns: auto;
 }
 
-#abouttext {
+#abouttext1 {
     display:inline-grid;
     margin:auto;
     order:-1;
@@ -128,7 +128,7 @@ main {
     text-align:center;
 }
 
-#abouttext {
+#abouttext2 {
     display:inline-grid;
     margin:auto;
     order:1;
@@ -271,9 +271,9 @@ input[type=email] {
     margin: 8px 0;
   }
 
-  .join-button{
+  /*.join-button{
     all: none;
-  }
+  }*/
 
   button[type=submit] {
     border: 2px solid #40302D;
