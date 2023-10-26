@@ -38,38 +38,52 @@
     </header>
     <!--Main content-->
     <main>
-        <section id="booking-section">
-            <form id="form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Come meet our kitties!</h2>
-                <label for="first_name">First name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_adress">Email address</label>
-                <input type="email" name="email_adress" id="email_adress" class="text-input" required>
-                <br>
-                <label for="date">Pick a date</label>
-                <input type="date" name="date" id="date" class="date" required>
-                <br>
-                <div class="radio buttons">
-                    <div><label for="time-slot">Pick a time slot</label></div>
-                    <div><label for="time">9-11hs</label> 
-                    <input type="radio" name="time-slot1" id="time1" value="time" required checked></div>
-                    <div><label for="time">12-14hs</label> 
-                    <input type="radio" name="time-slot2" id="time2" value="time" required checked></div>
-                    <div><label for="time">14-16hs</label> 
-                    <input type="radio" name="time-slot3" id="time3" value="time" required checked></div>
-                    <div><label for="time">16-18hs</label> 
-                    <input type="radio" name="time-slot4" id="time4" value="time" required checked></div>  
-                </div>
-                <button type="submit" class="join-button">Submit right meow</button>
-                <br>
-            </form>
-        </section>
-    </main>
-
+      <section id="booking-section">
+          <form id="form" method="POST" action="https://formdump.codeinstitute.net">
+              <h2>Come meet our kitties!</h2>
+              
+              <label for="first_name">First name</label>
+              <input type="text" name="first_name" id="first_name" class="text-input" required>
+              <br>
+  
+              <label for="last_name">Last name</label>
+              <input type="text" name="last_name" id="last_name" class="text-input" required>
+              <br>
+  
+              <label for="email_adress">Email address</label>
+              <input type="email" name="email_adress" id="email_adress" class="text-input" required>
+              <br>
+  
+              <label for="date">Pick a date</label>
+              <input type="date" name="date" id="date" class="date" required>
+              <br>
+  
+              <div class="radio buttons">
+                  <label for="time-slot">Pick a time slot</label>
+                  <div>
+                      <label for="time1">9-11hs</label>
+                      <input type="radio" name="time-slot" id="time1" value="9-11" required checked>
+                  </div>
+                  <div>
+                      <label for="time2">12-14hs</label>
+                      <input type="radio" name="time-slot" id="time2" value="12-14" required>
+                  </div>
+                  <div>
+                      <label for="time3">14-16hs</label>
+                      <input type="radio" name="time-slot" id="time3" value="14-16" required>
+                  </div>
+                  <div>
+                      <label for="time4">16-18hs</label>
+                      <input type="radio" name="time-slot" id="time4" value="16-18" required>
+                  </div>  
+              </div>
+              <button type="submit" class="join-button">Submit right meow</button>
+              <br>
+          </form>
+      </section>
+  </main>
+  
+​
     <!--Footer-->
     <footer id="footer">
         <div id="address">
@@ -90,7 +104,7 @@
             </li>
             <li>
                 <a href="https://www.instagram.com/" target= "_blank" rel="noopener" aria-label="Visit our Instagram">
-             <i class="fa-brands fa-instagram"></i></a>
+             <i class="fa-brands fa-instagram"></i></li></a>
             <li>
                 <a href="https://twitter.com/" target= "_blank" rel="noopener" aria-label="Visit our Twitter">
             <i class="fa-brands fa-x-twitter"></i></a>
@@ -101,7 +115,7 @@
             </li>
         </ul>
     </footer>
-
+​
  <!-- Font Awesome kit -->
  <script src="https://kit.fontawesome.com/0dd791c236.js" crossorigin="anonymous"></script>   
 </body>
