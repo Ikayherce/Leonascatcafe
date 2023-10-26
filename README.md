@@ -44,19 +44,11 @@ The navbar has a toggle down menu in smaller screens to optimize the use of real
 
 #### Landing page image 
 The landing page image, found on www.unsplash.com, provides the user with an idea of what they can expect to experience at the cat café. 
-
 //pictures of landing page in different sizes//
 #### About section
 The about section describes the business and the menu for the user.
-
 #### Footer
 The footer contains the address and opening hours of the café as well as links to the social media of Leona's cat café. An embedded google maps link was placed at the beginning but it has been replaced with a screenshot of the map instead since the link produced errors.
-![footer in phone screen](assets/readmeimages/footerphone.png)
-![footer in tablet screen](assets/readmeimages/footertablet.png)
-![footer in latop screen](assets/readmeimages/footerlargescreen.png)
-
-
-
 #### Gallery "our cats"
 The 'Our Cats' page functions as a gallery and shows the user more of what they will experience at the café. In this case it is of course the cats they will get to meet. 
 
