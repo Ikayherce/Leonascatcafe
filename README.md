@@ -99,7 +99,7 @@ This is what the process has looked like:
 4- Deployment from the Github repository https://github.com/Ikayherce/Leonascatcafe .
 
 ## Unfixed bugs
-The page 'Ourcats.html' overflows when you open it in a cell phone. Refreshing the page fixes it, I couldn't identify why it happens. 
+The page 'Ourcats.html' sometimes shows an overflow when you open it in a cell phone.  I couldn't identify why it happens, but when it does refreshing the page solves it. 
 
 ## Credits
 ### Content
