@@ -1,5 +1,5 @@
 /*Google fonts import*/
-  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;500&family=Cinzel+Decorative:wght@400;700&family=Lato:wght@300&family=Poiret+One&family=Text+Me+One&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;500&family=Cinzel+Decorative:wght@400;700&family=Lato:wght@300&family=Poiret+One&family=Text+Me+One&family=Tilt+Neon&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -84,6 +84,7 @@ nav {
 /* Main content */
 main {
     background-color: #FEEBD6;
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -98,18 +99,19 @@ main {
 }
 
 #hero-sub-heading {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 #cover-text {
     color:#FEEBD6;
     font-family: 'Tilt Neon', sans-serif;
     padding: 1rem;
+    /*background color to make text visible against image*/
     background-color: rgba(0, 0, 0, 0.5);  
-   /*trying to move text to bottom of image not working
+   /*trying to move text to bottom of image not working*/
     display:flex;
     align-items: flex-end;
-    align-content: flex-end;*/
+    align-content: flex-end;
 }
 
 .about {
@@ -126,14 +128,15 @@ main {
 }
 
 #leonaabout-div {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 #leonaabout {
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
+    width:50%;
 }
 
 /* Footer */
@@ -176,7 +179,6 @@ color: #56423E;
 
 
 
-
 /*Our cats page*/
 
 .cat-div {
@@ -186,43 +188,46 @@ color: #56423E;
     align-items:center;
     padding: 1rem;
 }
+
+.cat-div p {
+    text-align: center;
+}
+
  #meet-our-cats {
     display:flex;
     justify-content:center;
     align-items:center;
-    /*margin: 5px 5px 5px 5px;
-    padding: 1rem;*/
+    font-size: larger;
 } 
 
-/*.cat-name {
-    margin: 5px 5px 5px 5px;
-    padding: 1rem;
-}*/
+.cat-name {
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: larger;
+  font-style: italic;
+}
 
 .cat {
     display:flex;
     justify-content:center;
     align-items:center;
+    margin: 0 auto;
 }
 #our-cats {
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
 }
 
 #cat-descriptions {
-    margin: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 20px;
 }
 
 /*Form*/
-
 booking-section {   
-    /*picture not loading, back up plan is no background
-    background-image: url("../css/images/formcat.jpg");
-    background-color:rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    background-position: 75%;*/
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
 } 
 #form {
     padding-top: 20px;
@@ -271,7 +276,7 @@ input[type=email] {
 /* Media query: tablets and larger (768px and up) */
 @media(min-width: 768px) {
        h1 {
-        font-size: 350;
+        font-size: 1.5rem;
         padding-top: 1.1rem;
        }
         
@@ -282,6 +287,9 @@ input[type=email] {
         width: fit-content;
         padding-right: 1rem;
     }
+    #cat-descriptions {
+      grid-template-columns: auto auto auto;
+  }
          #menu {
         display: flex;
         font-size: 120%;
@@ -297,7 +305,7 @@ input[type=email] {
     /* Main content */
          main {
     /* Push main content down to accommodate larger header */
-          margin-top: 79px;
+          margin-top: 68px;
         }
         /*about section doesn't look centered*/ 
         .about {
@@ -319,7 +327,7 @@ input[type=email] {
         display:flex;
         margin: auto;
         order: 0;
-        font-size: 100%;
+        font-size: 60%;
         }   
           
       
@@ -338,7 +346,7 @@ input[type=email] {
     #map {
         padding-top: 10px;
         /*trying to make map smaller in bigger screens*/ 
-        width:200px;
+        width:600px;
         height:auto;
     }
     
@@ -346,11 +354,14 @@ input[type=email] {
     /* Large devices (laptops and desktops, 992px and up) */
 @media(min-width: 992px) {
         h1 {
-        font-size: 300;
         padding-top: 1.5rem;
        }
         #menu a:hover{
         border-bottom: 1px solid #40302D;
     }
+         main {
+    /* Push main content down to accommodate larger header */
+          margin-top: 73px;
+        }
                
 }  
