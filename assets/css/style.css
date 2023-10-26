@@ -287,9 +287,9 @@ input[type=email] {
         width: fit-content;
         padding-right: 1rem;
     }
-    #cat-descriptions {
+        #cat-descriptions {
       grid-template-columns: auto auto auto;
-  }
+    }
          #menu {
         display: flex;
         font-size: 120%;
