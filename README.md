@@ -88,9 +88,15 @@ I used https://mycolor.space/ for inspiration and experimented until I found the
 I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look to the website.  
 
 ## Testing
+- Social media links open correctly and in a new tab
+- Form provides feedback 
+- Site is responsive
+  
 ### Lighthouse report 
  ![lighthouse report](assets/readmeimages/lighthouse.png)
 ### Validator testing
+ ![CSS validator](assets/readmeimages/cssvalidator.png)
+ ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorourcats.png)
 #### HTML Validator 
 
 
