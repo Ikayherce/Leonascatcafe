@@ -1,5 +1,5 @@
-*Google fonts import*/
-  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;500&family=Cinzel+Decorative:wght@400;700&family=Lato:wght@300&family=Poiret+One&family=Text+Me+One&family=Tilt+Neon&display=swap');
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;500&family=Cinzel+Decorative:wght@400;700&family=Lato:wght@300&family=Poiret+One&family=Text+Me+One&family=Tilt+Neon&display=swap');
 ​
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -365,4 +365,4 @@ input[type=email] {
           margin-top: 73px;
         }
                
-}
+} 
