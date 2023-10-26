@@ -254,14 +254,18 @@ input[type=text] {
 input[type=email] {
     border: 2px solid #40302D;
     margin: 8px 0;
-    /*border-radius: 2px;
-    padding: 12px 20px;*/
+  
   }
   input[type=date] {
     border: 2px solid #40302D;
     margin: 8px 0;
-    /*border-radius: 2px;
-    padding: 12px 20px;*/
+ 
+  }
+
+  input[type=time] {
+    border: 2px solid #40302D;
+    margin: 8px 0;
+ 
   }
   input[type=radio] {
     margin: 8px 0;
@@ -270,7 +274,7 @@ input[type=email] {
   .join-button{
     all: none;
   }
-  
+
   button[type=submit] {
     border: 2px solid #40302D;
     margin: 8px 0;
