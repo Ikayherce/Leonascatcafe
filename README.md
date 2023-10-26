@@ -95,12 +95,10 @@ I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look 
 ### Lighthouse report 
  ![lighthouse report](assets/readmeimages/lighthouse.png)
 ### Validator testing
- ![CSS validator](assets/readmeimages/cssvalidator.png)
- ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorourcats.png)
 #### HTML Validator 
-
-
+ ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorourcats.png)
 ####  CSS Validator
+ ![CSS validator](assets/readmeimages/cssvalidator.png)
 ## Unfixed bugs
 
 ## Deployment
