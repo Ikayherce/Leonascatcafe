@@ -125,6 +125,7 @@ main {
     order:-1;
     font-size:100%;
     padding:1rem;
+    text-align:center;
 }
 
 #leonaabout-div {
@@ -263,7 +264,6 @@ input[type=email] {
     padding: 12px 20px;
     font-family:'Tilt Neon', sans-serif;
     color:#40302D;
-
   }
 
 /* Media query: tablets and larger (768px and up) */
