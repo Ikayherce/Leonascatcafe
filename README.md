@@ -98,6 +98,9 @@ This is what the process has looked like:
 3- Git push to push the local git up to Github. 
 4- Deployment from the Github repository https://github.com/Ikayherce/Leonascatcafe .
 
+## Unfixed bugs
+The page 'Ourcats.html' overflows when you open it in a cell phone. Refreshing the page fixes it, I couldn't identify why it happens. 
+
 ## Credits
 ### Content
 The content in "about our menu" in the home page has been inspired in the website www.purrfectcafe.se.
