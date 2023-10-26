@@ -13,7 +13,7 @@ You can look at this project by clicking on the deployed link: https://ikayherce
 ### -Testing
 ### -Validator testing
 ### -Unfixed Bugs
-### -Deployment
+### -Development and deployment
 ### -Credits
  
 ## Description 
@@ -91,8 +91,12 @@ I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look 
 ####  CSS Validator
  ![CSS validator](assets/readmeimages/cssvalidator.png)
 
-## Deployment
-The page has been deployed on Github from the repository https://github.com/Ikayherce/Leonascatcafe .
+## Development and deployment
+This is what the process has looked like:
+1- Creation of empty repository in Github using Code Institute's repository template.  
+2- Use of git add and git commit with message in the process of creating my code.
+3- Git push to push the local git up to Github. 
+4- Deployment from the Github repository https://github.com/Ikayherce/Leonascatcafe .
 
 ## Credits
 ### Content
