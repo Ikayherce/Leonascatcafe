@@ -37,8 +37,11 @@ This is what the initial planning looked like.
 ### Existing features
 #### Navbar
 The navbar has a toggle down menu in smaller screens to optimize the use of real estate.
+![navbar phone screen toggle](assets/readmeimages/navbartoggle1.png)
+![navbar toggle when clicked](assets/readmeimages/navbartoggle2.png)
+![navbar large screen](assets/readmeimages/navbar1.png)
 
-//pictures of toggle down menu and navbar in bigger screens//
+
 #### Landing page image 
 The landing page image, found on www.unsplash.com, provides the user with an idea of what they can expect to experience at the cat café. 
 
@@ -46,11 +49,14 @@ The landing page image, found on www.unsplash.com, provides the user with an ide
 #### About section
 The about section describes the business and the menu for the user.
 
-//pictures of about section in different sizes//
 #### Footer
 The footer contains the address and opening hours of the café as well as links to the social media of Leona's cat café. An embedded google maps link was placed at the beginning but it has been replaced with a screenshot of the map instead since the link produced errors.
+![footer in phone screen](assets/readmeimages/footerphone.png)
+![footer in tablet screen](assets/readmeimages/footertablet.png)
+![footer in latop screen](assets/readmeimages/footerlargescreen.png)
 
-//pictures of footer in different sizes//
+
+
 #### Gallery "our cats"
 The 'Our Cats' page functions as a gallery and shows the user more of what they will experience at the café. In this case it is of course the cats they will get to meet. 
 
@@ -58,7 +64,11 @@ The 'Our Cats' page functions as a gallery and shows the user more of what they 
 #### Form 
 Lastly, the users are provided with a form page where they can book their visit to the cat café. A date chooser field and radio buttons to choose a time slot are included, and all fields are required. 
 
-//pictures of form page in different sizes//
+![form phone screen](assets/readmeimages/formphonescreen.png)
+![form tablet screen](assets/readmeimages/formtabletscreen.png)
+![form laptop screen](assets/readmeimages/formlargescreen.png)
+
+
 #### Technologies used
 The website "Leona's cat café" has been built with html and CSS.
 The IDE used has been codeanywhere and the repository has been hosted in the platform Github. 
