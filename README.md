@@ -111,6 +111,7 @@ I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look 
 
 ## Development and deployment
 This is what the process has looked like:
+
 1- Creation of empty repository in Github using Code Institute's repository template.  
 
 2- Use of git add and git commit with message in the process of creating my code.
