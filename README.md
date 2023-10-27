@@ -54,10 +54,10 @@ The 'Our Cats' page functions as a gallery and shows the user more of what they 
 !['Our cats' file on ipad screen](assets/readmeimages/gallerypageipad.png)
 !['Our cats' file on phone screen](assets/readmeimages/gallerypagephone.png)
 #### Form 
-Lastly, the users are provided with a form page where they can book their visit to the cat café. A date chooser field and radio buttons to choose a time slot are included, and all fields are required. 
-![form phone screen](assets/readmeimages/formphonescreen.png)
-![form tablet screen](assets/readmeimages/formtabletscreen.png)
-![form laptop screen](assets/readmeimages/formlargescreen.png)
+Lastly, the users are provided with a form page where they can book their visit to the cat café. A date and time chooser fields as well as radio buttons to pick the duration of the visit are included, and all fields are required. 
+![form phone screen](assets/readmeimages/formpagephonescreen.png)
+![form tablet screen](assets/readmeimages/formpageipad.png)
+![form laptop screen](assets/readmeimages/formlpagelargescreen.png)
 
 ## Technologies used
 The website "Leona's cat café" has been built with html and CSS.
