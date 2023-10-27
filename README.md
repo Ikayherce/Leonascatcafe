@@ -36,28 +36,44 @@ This is what the initial planning looked like.
 ### Existing features
 #### Navbar
 The navbar has a toggle down menu in smaller screens to optimize the use of real estate.
+
 ![navbar phone screen toggle](assets/readmeimages/navbartoggle1.png)
+
 ![navbar toggle when clicked](assets/readmeimages/navbartoggle2.png)
+
 ![navbar large screen](assets/readmeimages/navbar1.png)
+
 #### Landing page image 
 The landing page image, found on www.unsplash.com, provides the user with an idea of what they can expect to experience at the cat café. 
+
 ![Home page on large screen](assets/readmeimages/landingpagebigscreen.png)
+
 ![Home page on ipad screen](assets/readmeimages/landingpageipad.png)
+
 ![Home page on phone screen](assets/readmeimages/landingpagephone.png)
+
 #### About section
 The about section describes the business and the menu for the user.
 #### Footer
 The footer contains the address and opening hours of the café as well as links to the social media of Leona's cat café. An embedded google maps link was placed at the beginning but it has been replaced with a screenshot of the map instead since the link produced errors.
 #### Gallery "our cats"
 The 'Our Cats' page functions as a gallery and shows the user more of what they will experience at the café. In this case it is of course the cats they will get to meet. 
+
 !['Our cats' file on large screen](assets/readmeimages/gallerypagelargescreen.png)
+
 !['Our cats' file on ipad screen](assets/readmeimages/gallerypageipad.png)
+
 !['Our cats' file on phone screen](assets/readmeimages/gallerypagephone.png)
+
 #### Form 
-Lastly, the users are provided with a form page where they can book their visit to the cat café. A date and time chooser fields as well as radio buttons to pick the duration of the visit are included, and all fields are required. 
+Lastly, the users are provided with a form page where they can book their visit to the cat café. A date and time chooser fields as well as radio buttons to pick the duration of the visit are included, and all fields are required.
+
 ![form phone screen](assets/readmeimages/formpagephonescreen.png)
+
 ![form tablet screen](assets/readmeimages/formpageipad.png)
+
 ![form laptop screen](assets/readmeimages/formpagelargescreen.png)
+
 
 ## Technologies used
 The website "Leona's cat café" has been built with html and CSS.
@@ -88,6 +104,7 @@ I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look 
  ![HTML validator 'Index.html' aka home page html file](assets/readmeimages/htmlvalidatorindex.html.png)
  ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorourcats.png)
  ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorform.png)
+ 
 ####  CSS Validator
  ![CSS validator](assets/readmeimages/cssvalidator.png)
 
