@@ -29,6 +29,7 @@ Leona's cat café is a website with three pages: 1)a home page introducing the c
 ### Initial planning
 ### Wireframes
 This is what the initial planning looked like. 
+
  ![wireframes iphone](assets/readmeimages/wireframephone.png)
  ![wireframes iphone](assets/readmeimages/wireframetablet.png)
 ![wireframes iphone](assets/readmeimages/wireframelargescreen.png)
@@ -104,15 +105,18 @@ I chose 'Tilt Neon' (sans-serif) as the only font for a playful, yet sleek look 
  ![HTML validator 'Index.html' aka home page html file](assets/readmeimages/htmlvalidatorindex.html.png)
  ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorourcats.png)
  ![HTML validator 'Our cats' html file](assets/readmeimages/htmlvalidatorform.png)
- 
+
 ####  CSS Validator
  ![CSS validator](assets/readmeimages/cssvalidator.png)
 
 ## Development and deployment
 This is what the process has looked like:
 1- Creation of empty repository in Github using Code Institute's repository template.  
+
 2- Use of git add and git commit with message in the process of creating my code.
+
 3- Git push to push the local git up to Github. 
+
 4- Deployment from the Github repository https://github.com/Ikayherce/Leonascatcafe .
 
 ## Unfixed bugs
